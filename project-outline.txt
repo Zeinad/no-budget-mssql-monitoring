@@ -1,0 +1,23 @@
+Overview
+  Basic Activy Monitor
+  Blocking
+  Deadlocking
+  DMV Monitors
+  Notifications
+Maybe
+  Plan Cache
+Notes
+  Any piece with a SQL Server version requirement should be individual
+  Every piece should work independant of the others
+
+Basic Activy Monitor
+  sp_whoisactive
+    write results to table
+
+Blocking
+  SQL Server Blocked Process Report
+
+DMV Monitors
+  SQLServer: General Statistic: Processes Blocked
+  SQL Server: Locks – Lock Wait Time (ms)
+  SQL Server: Locks – Number of Deadlocks/sec
